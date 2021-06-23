@@ -1,0 +1,12 @@
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\net5.0\RestaurantDeliveryOnline.Application.deps.json
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\net5.0\RestaurantDeliveryOnline.Application.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\net5.0\RestaurantDeliveryOnline.Application.pdb
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\net5.0\RestaurantDeliveryOnline.Application.csprojAssemblyReference.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\net5.0\RestaurantDeliveryOnline.Application.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\net5.0\RestaurantDeliveryOnline.Application.AssemblyInfo.cs
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\net5.0\RestaurantDeliveryOnline.Application.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\net5.0\RestaurantDeliveryOnline.Application.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\net5.0\RestaurantDeliveryOnline.Application.pdb
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\net5.0\RestaurantDeliveryOnline.Domain.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\net5.0\RestaurantDeliveryOnline.Domain.pdb
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\net5.0\RestaurantDeliveryOnline.Application.csproj.CopyComplete

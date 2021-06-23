@@ -1,0 +1,8 @@
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Common\bin\Debug\net5.0\RestaurantDeliveryOnline.Common.deps.json
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Common\bin\Debug\net5.0\RestaurantDeliveryOnline.Common.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Common\bin\Debug\net5.0\RestaurantDeliveryOnline.Common.pdb
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Common\obj\Debug\net5.0\RestaurantDeliveryOnline.Common.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Common\obj\Debug\net5.0\RestaurantDeliveryOnline.Common.AssemblyInfo.cs
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Common\obj\Debug\net5.0\RestaurantDeliveryOnline.Common.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Common\obj\Debug\net5.0\RestaurantDeliveryOnline.Common.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Common\obj\Debug\net5.0\RestaurantDeliveryOnline.Common.pdb

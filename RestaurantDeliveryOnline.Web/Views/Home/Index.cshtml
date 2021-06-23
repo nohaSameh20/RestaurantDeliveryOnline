@@ -1,0 +1,255 @@
+﻿@model RestaurantDeliveryOnline.Application.Restaurants.RestaurantFilter
+@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from preview.colorlib.com/theme/listing/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Jun 2021 16:19:51 GMT -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Colorlib">
+    <meta name="description" content="#">
+    <meta name="keywords" content="#">
+
+    <title>Listing &amp; Directory Website Template</title>
+    <link href="~/css/A.bootstrap.min.css.pagespeed.cf.rL9IA8pRcw.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/simple-line-icons.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.js"></script>
+    <style>
+        .slider-link {
+            display: inline-block;
+            padding: 35px;
+        }
+
+        .slider-link {
+            color: #ff3a6d
+        }
+
+        .fa {
+            color: white
+        }
+    </style>
+</head>
+<body>
+
+
+    <section class="slider d-flex align-items-center">
+
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12">
+                    <div class="slider-title_box">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slider-content_wrap">
+                                    <h1>
+                                        Order Food Online From The   <br />
+                                        Best Restaurants
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-10">
+                                <form class="form-wrap mt-4" method="post" asp-action="Index" asp-controller="Home">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <input type="text" id="txtName" placeholder="Restaurant Name" class="btn-group1" asp-for="Name">
+                                        <select class="form-control navbar-brand btn-group1 "  id="sel1" asp-for="CityId">
+                                            <option disabled selected>Select City</option>
+                                            @foreach (var item in ViewBag.Cities)
+                                            {
+                                                <option value="@item.Id">@item.Name</option>
+                                            }
+                                        </select>
+
+
+                                        <button type="submit" style="cursor:pointer" class="btn-form"><span class="icon-magnifier search-icon"></span>SEARCH<i class="pe-7s-angle-right"></i></button>
+                                    </div>
+                                </form>
+
+                                <div class="slider-link">
+                                    <i class="fa fa-home fa-5x " aria-hidden="true"></i><span>@ViewBag.RestaurantCount</span>
+                                    <h6>Restaurants</h6>
+
+
+                                </div>
+                                <div class="slider-link" style="display:inline-block">
+                                    <i class="fa fa-user fa-5x " aria-hidden="true"></i><span>@ViewBag.UserCount</span>
+                                    <h6>Reserved Users</h6>
+
+
+                                </div>
+
+                                <div class="slider-link">
+                                    <i class="fa fa-user fa-5x " aria-hidden="true"></i><span>@ViewBag.UserCount K</span>
+
+                                    <h6>Happy Services</h6>
+
+
+                                </div>
+                                <div class="slider-link" style="display:inline-block">
+                                    <i class="fa fa-users fa-5x " aria-hidden="true"></i><span>@ViewBag.UserCount</span>
+                                    <br />
+                                    <h6>Regular Users</h6>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="main-block light-bg">
+        <div class="container-fluid">
+            <div class="row">
+                @if (ViewBag.Restaurants != null)
+                {
+                    @foreach (var item in ViewBag.Restaurants)
+                    {
+                        <div class="col-md-4 featured-responsive" asp-route-Id="@item.Id" asp-action="Details" asp-controller="Restaurant">
+                            <div class="featured-place-wrap">
+                               
+                                    <img src="images/featured1.jpg" class="img-fluid" alt="#">
+                                    <span class="featured-rating-orange">6.5</span>
+                                    <div class="featured-title-box">
+                                        <h6>@item.Name</h6>
+                                        <p>Restaurant </p>
+                                        <p>3 Reviews</p> <span> • </span>
+                                        <p><span>$$$</span>$$</p>
+                                        <p>@item.Description</p>
+                                        <div class="bottom-icons">
+                                            <a style="cursor:pointer" asp-route-Id="@item.Id" asp-action="Details" asp-controller="Restaurant">
+                                                <div class="closed-now" >Menue</div>
+                                            </a>
+                                                <span class="ti-heart"></span>
+                                                <span class="ti-bookmark"></span>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        </div>
+
+                    }
+                }
+                @if (ViewBag.Restaurants==null)
+                {
+                    <p style="text-align:center">There`s No Data To Be Shown......</p>
+                }
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="featured-btn-wrap">
+                        <a href="#" class="btn btn-danger" >VIEW ALL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="main-block light-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="add-listing-wrap">
+                        <h2>Reach millions of People</h2>
+                        <p>Add your Business infront of millions and earn 3x profits from our listing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="featured-btn-wrap">
+                        <a href="#" class="btn btn-danger"><span class="ti-plus"></span> ADD LISTING</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="main-block dark-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">
+
+                        <p>Copyright &copy; 2018 Listing. All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a></p>
+
+                        <ul>
+                            <li><a href="#"><span class="ti-facebook"></span></a></li>
+                            <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
+                            <li><a href="#"><span class="ti-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(window).scroll(function () {
+            // 100 = The point you would like to fade the nav in.
+
+            if ($(window).scrollTop() > 100) {
+
+                $('.fixed').addClass('is-sticky');
+
+            } else {
+
+                $('.fixed').removeClass('is-sticky');
+
+            };
+        });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $("#btnGet").click(function () {
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/Index",
+                    data: {
+                        "Name": $("#txtName").val(), "CityId": $("#sel1").val()
+                    },
+                    success: function (response) {
+                        console.log(response);
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+<!-- Mirrored from preview.colorlib.com/theme/listing/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Jun 2021 16:19:55 GMT -->
+</html>
+

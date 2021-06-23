@@ -1,0 +1,14 @@
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.deps.json
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.pdb
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Common.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Common.pdb
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.pdb
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.csprojAssemblyReference.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.AssemblyInfo.cs
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.csproj.CopyComplete
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Application\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Application.pdb

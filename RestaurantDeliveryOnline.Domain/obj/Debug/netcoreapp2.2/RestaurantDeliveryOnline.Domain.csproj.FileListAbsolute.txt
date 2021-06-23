@@ -1,0 +1,11 @@
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.deps.json
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.runtimeconfig.json
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.runtimeconfig.dev.json
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\bin\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.pdb
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.AssemblyInfo.cs
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.dll
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.pdb
+C:\Users\Noha\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline.Domain\obj\Debug\netcoreapp2.2\RestaurantDeliveryOnline.Domain.genruntimeconfig.cache
